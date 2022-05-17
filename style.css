@@ -1,0 +1,15 @@
+.bo {
+    border: 2px solid black;
+    width: 30vw;
+    margin-left: 35vw;
+    padding: 5px;
+  }
+  button
+  {
+      background-color: aliceblue;
+  }
+.bo,.sub
+{
+    display: none;
+}
+  

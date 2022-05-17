@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body onload="reload()">
+<div class="bo" id="main">
+  <h1>Registration Form</h1>
+    
+      <p>Name:</p>
+      <input  type="text" name="" id="one" />
+      <p>College:</p>
+      <input type="text" name="" id="two" />
+      <p>Year and Branch:</p>
+      <input type="text" name="" id="three" />
+      <p>USN NO:</p>
+      <input type="text" name="" id="four" />
+      <p>Choose event(You can opt for multiple events)</p>
+      <div>
+        <button id="id1" onclick="cal(1)">Hack-a-thon</button>
+        <button id="id2" onclick="cal(2)">Web-a-thon</button>
+        <button id="id3" onclick="cal(3)">Code Masters</button>
+        <button id="id4" onclick="cal(4)">IPL Auctions</button>
+      </div>
+      <p>Amount to be paid = <span id="amo">0</span>
+          </p>
+      <button onclick="verify()" id="verify">Verify Details</button>
+    
+</div>
+<div class="sub" id="sub" >
+  <h2>Invalid Password. Try again</h2>
+  <button onclick="reload()">Try Again</button>
+</div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>
